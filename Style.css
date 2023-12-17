@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+body{
+     background-color: rosybrown;
+}
+
+h1{
+     text-align: center;
+     margin-top: 50px !important;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+     padding: 20px;
+     text-align: center;
+     width: 400px;
+     border-radius: 15px;
+     margin-top: 50px;
+     background: burlywood;
+     box-shadow: 0px 0px 10px gainsboro;
+}
+
+label{
+     font-size: 24px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+}
+.box input[type="number"]{
+     border: none;
+     outline: none;
+     height: 25px;
+     width: 31%;
+     padding-left: 10px;
+     font-size: 20px;
+     border-radius: 5px;
+}
+
+.box input[type="checkbox"]{
+     margin-top: 15px;
+}
+
+button{
+     height: 40px;
+     width: 56%;
+     border-radius: 10px;
+     border: none;
+     font-size: 20px;
+     padding: 11px;
+     background: blueviolet;
+     line-height: 10px;
+     font-weight: 600;
+     cursor: pointer;
+     transition: all 2s;
+}
+
+button:hover{
+     color: #ffff;
+     background: black;
+     transition: all 2s;
+}
+
+input[type="text"]{
+     height: 34px;
+     width: 70%;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     padding-left: 13px;
+     font-size: 18px;
+}
